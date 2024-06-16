@@ -1,0 +1,12 @@
+version: '1.0'
+services:
+  mysql-database:
+    image: mysql:latest
+    container_name: mysql-container
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+      - ./mysqlsampledatabase.sql:/home/mysqlsampledatabase.sql
+    ports:
+      - "3666:3306"

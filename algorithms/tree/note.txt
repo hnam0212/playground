@@ -1,0 +1,20 @@
+Tree:
+- Non linear data structure
+- Consist of :
++ Node
++ Edges
+ And it is connected
+- More detail:
++ Node don't have any child -> leaf
++ Node don't have any parent -> root
++ 1 root only
++ 1 parent only for each Node
++ Node with parent and children called internal Node
+
+Binary Tree:
+- Special tree in which 1 node have maximun 2 child node
+- Types:
++ Strict Binary Tree:
+* If every node have exactly 2 child or no child
++ Full binary tree:
+* Each node have exactly 2 child, all leaf are in same level

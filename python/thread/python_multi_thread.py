@@ -12,6 +12,7 @@ def increase(by):
         counter = local_counter
         print(f'counter={counter}')
 
+
 def increase_without_lock(by):
     global counter
 
